@@ -51,3 +51,12 @@ python render_images.py \
   --outfile outputs/linesys1_l60_s600_rand_05.png
 
 ```
+
+OK, so there's another (slightly more sophisticated) drawing system now:
+```
+python render_images.py \
+  --image-function dotsys1.array_to_image \
+  --length 90 \
+  --random-seed 4 \
+  --outfile outputs/dotsys1_l90_r04.png
+```
