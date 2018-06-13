@@ -87,3 +87,6 @@ def array_to_image(a, size=224):
 
 def array_to_image_hifi(a, size=564):
     return array_to_image(a, size)
+
+def array_to_image1(a, size=224):
+    return array_to_image(a, size)
